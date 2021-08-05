@@ -1,0 +1,142 @@
+.comment-block {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 600px;
+  height: 532px;
+  border-radius: 6px;
+  box-shadow: 0.5px 0.866px 18px rgba(52,56,63,0.46);
+  background-color: #ffffff;
+}
+
+.comment-block__avatar {
+  border-radius: 3px;
+  object-fit: none;
+  align-items: center;
+  margin-top: 29px;
+}
+
+.comment-block__avtor {
+  display: flex;
+  margin: 0 auto;
+  width: 542px;
+  gap: 13px;
+}
+
+.comment-block__name {
+  font-size: 24px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: 700;
+  font-family: "PT Sans";
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+.comment-block__citi {
+  font-size: 16px;
+  line-height: 20px;
+  color: #7f7f7f;
+  font-family: "Arial";
+  text-align: center;
+}
+
+.comment-block__close {
+  background-image: url("../../img/close.png");
+  height: 27px;
+  width: 26px;
+  border: none;
+  background-repeat: no-repeat;
+  outline: none;
+  margin-top: 24px;
+  margin-right: -22px;
+  background-color: none;
+  cursor: pointer;
+}
+
+.comment-block__container {
+  margin-top: 12px;
+  height: 305px;
+  overflow: auto;
+}
+
+.comment-block__message {
+  display: flex;
+  margin: 0 auto;
+  width: 547px;
+}
+
+.comment-block__text {
+  width: 371px;
+  margin-left: 16px;
+  margin-bottom: 3px;
+  height: 87px;
+  font-size: 14px;
+  color: #3e3e3e;
+  font-family: "Arial";
+}
+
+.comment-block__avatar--message {
+  margin-left: 17px;
+  margin-top: 17px;
+}
+
+.comment-block__text--self {
+  height: 38px;
+}
+
+.comment-block__text--soft {
+  height: 73px;
+}
+
+.comment-block__data {
+  font-size: 13px;
+  width: 80px;
+  margin-top: 15px;
+  margin-left: 29px;
+}
+
+.comment-block__form {
+  width: 600px;
+  height: 142px;
+  background-color: #e9f2fa;
+}
+
+.comment-block__form-avatar {
+  object-fit: none;
+  margin-left: 29px;
+  margin-top: 19px;
+}
+
+.comment-block__form {
+  display: flex;
+
+}
+
+.comment-block__form-textarea {
+  resize: none;
+  width: 474px;
+  height: 71px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid rgba(85,85,85,0.38);
+  margin-left: 18px;
+  margin-top: 20px;
+}
+
+.comment-block__form-button {
+  width: 135px;
+  height: 30px;
+  border-radius: 3px;
+  background-image: linear-gradient(0deg, #d4d3d7 0%, #ffffff 100%);
+  border: 1px solid rgba(2,3,2,0.26);
+  font-size: 16px;
+  color: #3e3e3e;
+  font-family: "Arial";
+  margin-left: 15px;
+  margin-top: 4px;
+  cursor: pointer;
+}

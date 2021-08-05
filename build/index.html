@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <div class="comment-block">
+    <div class="comment-block__avtor">
+      <img class="comment-block__avatar" src="img/avatar-one.png" width="45" height="45">
+      <div class="comment_block__info">
+        <p class="comment-block__name">Токсикова Ольга</p>
+        <span class="comment-block__citi">Днепропетровск</span>
+      </div>
+      <div class="rating-area">
+        <input type="radio" id="star-5" name="rating" value="5">
+        <label for="star-5" title="Оценка «5»"></label>
+        <input type="radio" id="star-4" name="rating" value="4">
+        <label for="star-4" title="Оценка «4»"></label>
+        <input type="radio" id="star-3" name="rating" value="3">
+        <label for="star-3" title="Оценка «3»"></label>
+        <input type="radio" id="star-2" name="rating" value="2">
+        <label for="star-2" title="Оценка «2»"></label>
+        <input type="radio" id="star-1" name="rating" value="1">
+        <label for="star-1" title="Оценка «1»"></label>
+      </div>
+      <button type="button" class="comment-block__close"></button>
+    </div>
+    <div class="comment-block__container">
+      <div class="comment-block__message">
+        <img class="comment-block__avatar comment-block__avatar--message" src="img/avatar-one.png" width="30" height="30">
+        <p class="comment-block__text">Где взять на прокат вечернее красивое платье?
+          А еще лучше дизайнерское! Предстоит участие в мероприятии, где
+          все гости будут наверняка одеты в наряды "от кутюр", а у меня со средствами туговато, да и жалко на один раз
+          такие деньжищи отваливать Мне
+        </p>
+        <p class="comment-block__data">вчера в 17:45</p>
+      </div>
+      <div class="comment-block__message">
+        <img class="comment-block__avatar comment-block__avatar--message" src="img/avatar-two.png" width="30" height="30">
+        <p class="comment-block__text comment-block__text--self">Поисковик вам в помощь! Но цена примерно в<br> половину стоимости платья.
+        </p>
+        <p class="comment-block__data">вчера в 17:45</p>
+      </div>
+      <div class="comment-block__message">
+        <img class="comment-block__avatar comment-block__avatar--message" src="img/avatar-one.png" width="30" height="30">
+        <p class="comment-block__text comment-block__text--soft">Где взять на прокат вечернее красивое платье?
+          А еще лучше дизайнерское! Предстоит участие в мероприятии, где
+          все гости будут наверняка одеты в наряды "от кутюр", а у меня со средствами туговато
+        </p><p class="comment-block__data">вчера в 17:45</p>
+      </div>
+      <div class="comment-block__message comment-block__message--two">
+        <img class="comment-block__avatar comment-block__avatar--message" src="img/avatar-two.png" width="30" height="30">
+        <p class="comment-block__text comment-block__text--self">Поисковик вам в помощь! Но цена примерно в<br> половину стоимости платья.
+        </p>
+        <p class="comment-block__data">вчера в 17:45</p>
+      </div>
+    </div>
+    <form class="comment-block__form">
+      <img class="comment-block__form-avatar" src="img/avatar-two.png" width="45" height="45">
+      <div>
+        <textarea type="text" class="comment-block__form-textarea"></textarea>
+        <button type="submit" class="comment-block__form-button">Отправить</button>
+      </div>
+    </form>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
